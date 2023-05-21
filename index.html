@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  <link rel="stylesheet" href="assets/Css/style.css" type="text/css" />
+</head>
+
+<body>
+  <!-- Outer Covering -->
+  <div class="wrapper col-lg-12 col-md-12 col-sm-12">
+    <!-- Inside Form -->
+    <form class="row main-form col-lg-12 col-md-8 col-sm-8" id="main-form">
+      <!-- MAIN TABLIST OF PICTURES -->
+      <ul class="nav nav-tabs multiTabs col-lg-12 col-md-12 col-sm-12" id="myTab" role="tablist">
+        <!-- Step 1 Picture -->
+        <li class="nav-link" data-trigger="step1">
+          <a href="javascript:void(0)" class="nav-link" id="step1-tab" type="button"><img
+              src="/Assets/Images/step-1-active.png" alt="" class="img-fluid" id="step1-img" data-id="1" />
+            <span class="step-order">Step 01</span>
+          </a>
+        </li>
+        <span><img src="Assets/Images/step-arrow (1).png" alt="arrow" class="step-arrow" /></span>
+        <!-- Step 2 Picture -->
+
+        <li class="nav-link" data-trigger="step2">
+          <a class="nav-link" href="javascript:void(0)" id="step2-tab" type="button"><img
+              src="/Assets/Images/step-2.png" alt="" id="step2-img" data-id="2" class="img-fluid" />
+            <span class="step-order">Step 02</span>
+          </a>
+        </li>
+        <span><img src="Assets/Images/step-arrow (1).png" alt="arrow" class="step-arrow" /></span>
+        <!-- Step 3 Picture -->
+        <li class="nav-link" data-trigger="step3">
+          <a class="nav-link" href="javascript:void(0)" id="step3-tab" type="button"><img
+              src="/Assets/Images/step-3.png" alt="" id="step3-img" data-id="3" />
+            <span class="step-order">Step 03</span>
+          </a>
+        </li>
+        <span><img src="Assets/Images/step-arrow (1).png" alt="arrow" class="step-arrow" /></span>
+        <!-- Step 4 Picture -->
+        <li class="nav-link" data-trigger="step4">
+          <a href="javascript:void(0)" class="nav-link" id="step4-tab" type="button"><img
+              src="/Assets/Images/step-4.png" alt="" id="step4-img" data-id="4" />
+            <span class="step-order">Step 04</span>
+          </a>
+        </li>
+      </ul>
+      <!--  -->
+      <!-- Tab Panel SECTION FOR EVERY STEP -->
+      <div class="tab-content">
+        <!-- This div is for Step 1 Section -->
+        <div class="tabcontent" id="step1">
+          <div class="col-md-12">
+            <h3 class="heading3">Basic Details</h3>
+            <div class="row py-2 justify-content-center">
+              <div class="col-md-6 step-1">
+                <i class="fa fa-user"></i>
+                <input type="text" class="form-control" id="firstName" placeholder="First Name" />
+              </div>
+              <div class="col-md-6 step-1">
+                <i class="fa fa-user"></i>
+                <input type="text" class="form-control" id="lastName" placeholder="Last Name" />
+              </div>
+            </div>
+            <div class="row py-2 justify-content-center">
+              <div class="col-md-6 step-1">
+                <i class="fa fa-envelope"></i>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email ID" />
+              </div>
+              <div class="col-md-6 step-1">
+                <i class="fa fa-contact-book"></i>
+                <input type="text" class="form-control" id="userId" placeholder="Your User ID" />
+              </div>
+            </div>
+            <div class="row py-2 justify-content-center">
+              <div class="col-md-6 step-1">
+                <i class="fa fa-map"></i>
+                <input type="text" class="form-control" id="country" placeholder="Country" />
+              </div>
+              <div class="col-md-3 step-1">
+                <i class="fa fa-location-dot"></i>
+                <input type="text" class="form-control" id="state" placeholder="State" />
+              </div>
+              <div class="col-md-3 step-1">
+                <i class="fa fa-location-pin"></i>
+                <input type="text" class="form-control" id="city" placeholder="City" />
+              </div>
+            </div>
+            <div class="row py-2 justify-content-center">
+              <div class="col-md-6 step-1">
+                <i class="fa fa-mobile-android-alt"></i>
+                <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number" />
+              </div>
+              <div class="col-md-6 step-1">
+                <i class="fa fa-eye"></i>
+                <input type="password" class="form-control" id="referenceCoder" placeholder="Reference Coder" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- This div is for Step 2 Section -->
+        <div class="tabcontent" id="step2">
+          <div class="col-md-12">
+            <h3 class="heading3">Password Change</h3>
+            <div class="row py-2 justify-content-center">
+              <div class="col-md-12 step-2">
+                <i class="fa fa-lock"></i>
+                <input type="password" class="form-control" placeholder="Current Password" />
+              </div>
+            </div>
+            <div class="row py-2 justify-content-center">
+              <div class="col-md-12 step-2">
+                <i class="fa fa-lock"></i>
+                <input type="password" class="form-control" placeholder="Enter the Current Password" />
+              </div>
+            </div>
+            <div class="row py-2 justify-content-center">
+              <div class="col-md-12 step-2">
+                <i class="fa fa-lock"></i>
+                <input type="password" class="form-control" placeholder="New Password" />
+              </div>
+            </div>
+            <div class="row py-2 justify-content-center">
+              <div class="col-md-12 step-2">
+                <i class="fa fa-lock"></i>
+                <input type="password" class="form-control" placeholder="Confirm Password" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- This div is for Step 3 Section -->
+        <div class="tabcontent" id="step3">
+          <div class="col-md-12 justify-content-center">
+            <h3>My Cart</h3>
+            <table cellspacing="0" class="shopping-cart" id="shop-table">
+              <thead>
+                <tr>
+                  <th>&nbsp;</th>
+                  <th>Product Detail</th>
+                  <th>Quantity</th>
+                  <th>Total Price</th>
+                  <th>&nbsp;</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="product-thumb">
+                    <a href="javascript:void(0)" class="item-thumb">
+                      <img src="/Assets/Images/item-1.jpg" alt="" />
+                    </a>
+                  </td>
+                  <td class="product-detail" data-title="Product Detail">
+                    <div>
+                      <a>Cherry</a>
+                      <span>$</span>
+                      <span>35</span>
+                    </div>
+                  </td>
+                  <td class="product-quantity" data-title="Quantity">
+                    <div class="quantity">
+                      <span class="plus">+</span>
+                      <input type="number" id="counter" class="input-text quantity text" step="1" min="0" max=""
+                        name="cart[shopping][quantity]" value="1" title="quantity" size="4" pattern="[0-9]*"
+                        inputmode="numeric" />
+                      <span class="minus">-</span>
+                    </div>
+                  </td>
+                  <td class="total-price" data-title="Total Price">
+                    <span class="Price-amount amount">
+                      <span class="Price-currencySymbol">$</span>
+                      70
+                    </span>
+                  </td>
+                  <td class="product-remove">
+                    <a href="javascript:void(0)">
+                      <i class="fa fa-close"></i>
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="product-thumb">
+                    <a href="javascript:void(0)" class="item-thumb">
+                      <img src="/assets/images/item-2.jpg" alt="" />
+                    </a>
+                  </td>
+                  <td class="product-detail" data-title="Product Detail">
+                    <div>
+                      <a>Mango</a>
+                      <span>$</span>
+                      <span>2035</span>
+                    </div>
+                  </td>
+                  <td class="product-quantity" data-title="Quantity">
+                    <div class="quantity">
+                      <span class="plus">+</span>
+                      <input type="number" id="counter" class="input-text quantity text" step="1" min="0" max=""
+                        name="cart[shopping][quantity]" value="1" title="quantity" size="4" pattern="[0-9]*"
+                        inputmode="numeric" />
+                      <span class="minus">-</span>
+                    </div>
+                  </td>
+                  <td class="total-price" data-title="Total Price">
+                    <span class="Price-amount amount">
+                      <span class="Price-currencySymbol">$</span>
+                      20
+                    </span>
+                  </td>
+                  <td class="product-remove">
+                    <a href="javascript:void(0)">
+                      <i class="fa fa-close"></i>
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <!-- This div is for Step 4 Section -->
+        <div class="tabcontent" id="step4">
+          <div class="col-md-12">
+            <h3 class="heading3">Cart Totals</h3>
+            <div class="cart-totals">
+              <table cellspacing="0" class="shop-table shop-table-responsive">
+                <tbody>
+                  <tr class="cart-subtotal">
+                    <th>Subtotal</th>
+                    <td data-title="Subtotal">
+                      <span class="Price-amount amount">
+                        <span class="Price-currencySymbol">$</span>110.00
+                      </span>
+                    </td>
+                  </tr>
+                  <tr class="cart-subtotal shipping">
+                    <th>Shipping:</th>
+                    <td data-title="Subtotal">
+                      <div class="checkbox">
+                        <label>
+                          <input type="radio" name="shipping" checked="" />
+                          Free Shipping
+                          <span class="checkmark"></span>
+                        </label>
+                        <label>
+                          <input type="radio" name="shipping" /> Local pickup:
+                          <span><strong>$</strong></span><span><strong>0.00</strong></span>
+                          <span class="checkmark"></span>
+                        </label>
+                      </div>
+                      <span>Calculate shipping</span>
+                    </td>
+                  </tr>
+                  <tr class="cart-subtotal">
+                    <th>Service <span>(estimated for Vietnam)</span></th>
+                    <td data-title="Subtotal">
+                      <span class="Price-amount amount">
+                        <span class="Price-currencySymbol">$</span>5.60
+                      </span>
+                    </td>
+                  </tr>
+                  <tr class="order-total border-0">
+                    <th>Total</th>
+                    <td data-title="Total">
+                      <span class="Price-amount amount">
+                        <span class="Price-currencySymbol">$</span><strong>64.69</strong>
+                      </span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- BACK NEXT CHECKOUT BUTTONS  -->
+      <div class="jsButtons col-md-12 row py-1">
+        <ul role="menu" aria-label="Pagination">
+          <div class="col-2 previous">
+            <button type="button" class="btn" onclick="prev()">Back</button>
+          </div>
+          <div class="col-2 next">
+            <button type="button" class="btn" onclick="next()">
+              Continue
+            </button>
+          </div>
+        </ul>
+      </div>
+      <div class="finishButtons col-md-12 row justify-content-center">
+        <div class="col-5 finish">
+          <button type="button" class="btn" onclick="finish()">
+            Proceed to checkout
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="Scripts/main.js"></script>
+</body>
+
+</html>

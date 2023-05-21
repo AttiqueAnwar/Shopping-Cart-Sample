@@ -1,0 +1,278 @@
+/* Body Adjustments */
+body {
+    font-family: 'Lato',sans-serif;
+    font-size: 14px;
+    margin: 0;
+    
+    background: url("/Assets/Images/form-wizard-bg.jpg") no-repeat center center;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Outer Wrapper */
+.wrapper {
+    width: 51.625rem;
+    height: 38.75rem;
+    padding: 63px 90px 0;
+    background: #fff;
+  }
+  
+/* heading 3 */
+.heading3 {
+    font-family: lato;
+    font-size: 20px;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 29px;
+    font-weight: 900;
+}
+h3{
+    font-family: lato;
+    font-size: 20px;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-weight: 900; 
+}
+/* Form Adjustments */
+.form-control {
+    height: 42px;
+    border: 1px solid #e6e6e6;
+    width: 100%;
+    background: 0 0;
+    padding: 0 35px 0 19px;
+    color: #999999;
+    border-radius: 0px;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #8EB852;
+    outline: 0;
+    box-shadow: none;
+}
+input, textarea, select, button {
+    font-size: 14px;
+}
+/* Tab Content For Steps */
+.tabcontent {
+    display: none;
+  }
+  .tabcontent .active {
+    display: block;
+    display: show;
+  }
+/* Icons adjustment for steps */
+.step-1 i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    font-size: 0.75rem;
+    color: #999999;
+}
+.step-1{
+    position:relative;
+}
+.step-2 i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    font-size: 0.75rem;
+    color: #999999;
+}
+.step-2{
+    position:relative
+}
+/* Navtab and Navlink */
+.nav-tabs .nav-link {
+    border: 0px; 
+    margin-bottom: 0px;
+}
+.nav-link {
+    padding: .25rem;
+    color:#8EB852;
+
+}
+.nav-tabs {
+    border-bottom: 0px;
+}
+.step-order {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #666;
+    margin-top: 14px;
+}
+/*  Shopping Cart */
+.shopping-cart {
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 17px;
+}
+.shopping-cart th {
+    color: #666;
+    padding: 9px 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+.product-thumb{
+    width: 17.49%;
+}
+.product-detail{
+    width: 22.45%;
+}
+.product-quantity{
+    width: 16.25%;
+}
+.total-price{
+    width: 39.78%;
+}
+.product-remove{
+    width: 4.03%;
+}
+.shopping-cart td {
+    padding: 13px 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+.product-quantity input {
+    border: none;
+    padding: 0;
+    width: 2rem;
+    font-size: 1rem;
+    color: #666;
+    background: #f2f2f2;
+    text-align: center;
+}
+.product-detail a {
+    color: #666;
+    display: block;
+    margin-bottom: 6px;
+}
+.product-detail span {
+    color: #999;
+}
+.shopping-cart tr:last-child td {
+    padding-bottom: 0;
+    border: none;
+}
+.item-thumb {
+    display: inline-block;
+    border: 1px solid #e6e6e6;
+}
+.total-price {
+    width: 39.78%;
+    text-align: center;
+}
+.total-price span {
+    color: #92c752;
+    font-weight: 700;
+}
+.product-remove a {
+    color: #666;
+}
+.Price-amount{
+    padding: 12px 0;
+    color: #333;
+}
+/* Cart Total */
+.cart-totals th {
+    color: #333;
+    text-align: left;
+    width: 65.81%;
+}
+.cart-totals th, .cart-totals td {
+    padding: 11px 0;
+    vertical-align: top;
+    text-align: left;
+}
+
+.cart-totals {
+    font-size: 15px;
+    color: #666;
+    width: 66.56%;
+    margin: auto;
+    margin-bottom: 31px;
+}
+.step-arrow {
+    position: relative;
+    top: 33%;
+}
+/* Next and previous buttons */
+.jsButtons {
+    margin-top: 30px;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.jsButtons ul {
+    display: flex;
+    justify-content: space-between;
+}
+.jsButtons div button {
+    border: none;
+    display: inline-flex;
+    height: 42px;
+    width: 132px;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    background: #8eb852;
+    text-transform: uppercase;
+    justify-content: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.jsButtons div:first-child button {
+    width: 97px;
+}
+.finishButtons{
+    display: flex   ;
+}
+.finishButtons button {
+    width: 234px;
+}
+.finishButtons div button {
+    border: none;
+    display: inline-flex;
+    height: 42px;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    background: #8eb852;
+    text-transform: uppercase;
+    justify-content: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.btn:hover {
+    color: #ffffff;
+    background-color: #a1d15e;
+}
+
+form.row  {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+form .multiTabs{
+  display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
