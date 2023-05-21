@@ -1,2 +1,3 @@
-# Week 2 Assignment
+# General Shopping Cart Checkout Sample
+
  
